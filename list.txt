@@ -1,0 +1,107 @@
+1. Popularity-Based Recommendation
+Beginner
+- Most Popular
+- Trending Items
+- Top-N by Rating
+- Weighted Popularity
+  
+  2. Content-Based Filtering
+Beginner
+- Feature-Based Similarity
+- Cosine Similarity
+- TF-IDF
+- Bag of Words
+- Jaccard Similarity
+- K-Nearest Neighbors (Content-Based)
+- Word Embedding-Based Recommendation
+  
+  
+Beginner – Intermediate
+- User-Based Collaborative Filtering
+- Item-Based Collaborative Filtering
+- User-User Similarity
+- Item-Item Similarity
+- Pearson Correlation
+- Adjusted Cosine Similarity
+- Mean-Centered Similarity
+  
+  4. Matrix Factorization
+Intermediate
+- Singular Value Decomposition (SVD)
+- Funk SVD
+- Probabilistic Matrix Factorization (PMF)
+- Non-Negative Matrix Factorization (NMF)
+- Alternating Least Squares (ALS)
+- Bayesian Personalized Ranking (BPR)
+- Weighted Matrix Factorization
+  
+  5. Implicit Feedback Recommendation
+Intermediate
+- Implicit ALS
+- BPR
+- Logistic Matrix Factorization
+- EASE (Embarrassingly Shallow Autoencoders)
+  
+  6. Neighborhood and Advanced Factorization Models
+Intermediate – Advanced
+- Slope One
+- Koren's SVD++
+- Factorization Machines (FM)
+- Field-aware Factorization Machines (FFM)
+- Field-weighted Factorization Machines (FwFM)
+  
+  7. Deep Learning-Based Recommendation
+Advanced
+- AutoRec
+- Neural Collaborative Filtering (NCF)
+- GMF (Generalized Matrix Factorization)
+- MLP-Based Recommendation
+- Deep Matrix Factorization
+- Wide & Deep
+- DeepFM
+- xDeepFM
+- Deep & Cross Network (DCN)
+- Two-Tower Neural Networks
+- YouTube DNN Recommendation
+  
+  8. Sequential and Session-Based Recommendation
+Advanced
+- Markov Chain Recommendation
+- FPMC
+- GRU4Rec
+- Caser
+- SASRec
+- BERT4Rec
+- NextItNet
+- STAMP
+  
+  9. Graph-Based Recommendation
+Advanced
+- Random Walk
+- Personalized PageRank
+- DeepWalk
+- Node2Vec
+- Graph Convolutional Networks (GCN)
+- GraphSAGE
+- NGCF
+- LightGCN
+- PinSage
+  
+  10. Context-Aware and Hybrid Recommendation
+Advanced
+- Context-Aware Matrix Factorization
+- Factorization Machines
+- Hybrid Collaborative + Content-Based
+- Contextual Bandits
+- Multi-Armed Bandits
+- Reinforcement Learning-Based Recommendation
+  
+  11. Transformer and LLM-Based Recommendation
+Expert
+- SASRec
+- BERT4Rec
+- Transformer-Based Ranking
+- Semantic Embedding Recommendation
+- Retrieval-Augmented Recommendation
+- LLM-Based Recommendation
+- Generative Recommendation
