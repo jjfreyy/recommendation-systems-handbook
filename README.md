@@ -11,9 +11,10 @@ Repositori ini berisi kumpulan implementasi algoritma **Sistem Rekomendasi** yan
 ```text
 .
 ├── src/
-│   ├── 01-popularity_based.ipynb          # Rekomendasi berbasis popularitas (Most Popular, Weighted Rating, Time-Decay)
-│   ├── 02-content_based_filtering.ipynb   # Rekomendasi berbasis kemiripan konten (TF-IDF & Cosine Similarity)
-│   └── 03-collaborative_filtering.ipynb   # Rekomendasi berbasis kemiripan perilaku pengguna (User-Based CF)
+│   ├── 01-popularity_based.ipynb
+│   ├── 02-content_based_filtering.ipynb
+│   └── 03-collaborative_filtering.ipynb
+│   └── 04-matrix_factorization.ipynb
 ├── .gitignore
 ├── r.txt                                  # Daftar dependensi Python
 └── README.md
@@ -23,26 +24,10 @@ Repositori ini berisi kumpulan implementasi algoritma **Sistem Rekomendasi** yan
 
 ## 🧠 Daftar Algoritma
 
-### 1. Popularity-Based Recommendation (`01-popularity_based.ipynb`)
-
-Memberikan rekomendasi item berdasarkan tren dan popularitas secara umum tanpa memerlukan riwayat profil pengguna.
-
-- **Metode:** _Most Popular_, _Average Rating_, _Weighted Rating (Bayesian Average)_, dan _Time-Decay Popularity_.
-- **Visualisasi:** Grafik batang perbandingan 2×2 untuk melihat perbedaan peringkat skor dari keempat metode.
-
-### 2. Content-Based Filtering (`02-content_based_filtering.ipynb`)
-
-Merekomendasikan item yang memiliki kemiripan atribut atau deskripsi konten dengan item yang disukai pengguna sebelumnya.
-
-- **Metode:** Pembobotan kata **TF-IDF** dan pengukuran sudut vektor **Cosine Similarity**.
-- **Visualisasi:** _Heatmap_ matriks kemiripan antar item dan grafik batang peringkat rekomendasi teratas.
-
-### 3. Collaborative Filtering (`03-collaborative_filtering.ipynb`)
-
-Merekomendasikan item kepada seorang pengguna berdasarkan pola penilaian (_rating_) dari pengguna lain yang memiliki preferensi serupa (_User-Based_).
-
-- **Metode:** _User-to-User Cosine Similarity_ dan prediksi skor _rating_ menggunakan _Weighted Average_.
-- **Visualisasi:** _Heatmap_ kemiripan antar pengguna dan grafik batang skor prediksi _rating_.
+1. **Popularity-Based Recommendation**: _Most Popular_, _Average Rating_, _Weighted Rating_, dan _Time-Decay Popularity_.
+2. **Content-Based Filtering**: TF-IDF & _Cosine Similarity_.
+3. **Collaborative Filtering**: _User-Based CF_ dan _Weighted Average_.
+4. **Matrix Factorization**: _Funk SVD_ (SGD) & _NMF_ menggunakan _Pure NumPy_.
 
 ---
 
