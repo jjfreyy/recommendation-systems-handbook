@@ -8,26 +8,27 @@ Repositori ini berisi kumpulan implementasi algoritma **Sistem Rekomendasi** yan
 
 ## 📂 Struktur Proyek
 
-```text
-.
-├── src/
-│   ├── 01-popularity_based.ipynb
-│   ├── 02-content_based_filtering.ipynb
-│   └── 03-collaborative_filtering.ipynb
-│   └── 04-matrix_factorization.ipynb
-├── .gitignore
-├── r.txt                                  # Daftar dependensi Python
-└── README.md
-```
+<pre style="font-size: 16px; line-height: 1.6;">
+├── <a href="src/">src/</a>
+│   ├── <a href="src/01-popularity_based.ipynb">01-popularity_based.ipynb</a>
+│   ├── <a href="src/02-content_based_filtering.ipynb">02-content_based_filtering.ipynb</a>
+│   ├── <a href="src/03-collaborative_filtering.ipynb">03-collaborative_filtering.ipynb</a>
+│   ├── <a href="src/04-matrix_factorization.ipynb">04-matrix_factorization.ipynb</a>
+│   └── <a href="src/05-implicit_feedback_recommendation.ipynb">05-implicit_feedback_recommendation.ipynb</a>
+├── <a href=".gitignore">.gitignore</a>
+├── <a href="r.txt">r.txt</a> # Daftar dependensi Python
+└── <a href="README.md">README.md</a>
+</pre>
 
 ---
 
 ## 🧠 Daftar Algoritma
 
-1. **Popularity-Based Recommendation**: _Most Popular_, _Average Rating_, _Weighted Rating_, dan _Time-Decay Popularity_.
-2. **Content-Based Filtering**: TF-IDF & _Cosine Similarity_.
-3. **Collaborative Filtering**: _User-Based CF_ dan _Weighted Average_.
-4. **Matrix Factorization**: _Funk SVD_ (SGD) & _NMF_ menggunakan _Pure NumPy_.
+1. **[Popularity-Based Recommendation](src/01-popularity_based.ipynb)**: _Most Popular_, _Average Rating_, _Weighted Rating_, dan _Time-Decay Popularity_.
+2. **[Content-Based Filtering](src/02-content_based_filtering.ipynb)**: TF-IDF & _Cosine Similarity_.
+3. **[Collaborative Filtering](src/03-collaborative_filtering.ipynb)**: _User-Based CF_ dan _Weighted Average_.
+4. **[Matrix Factorization](src/04-matrix_factorization.ipynb)**: _Funk SVD_ (SGD) & _NMF_ menggunakan _Pure NumPy_.
+5. **[Implicit Feedback Recommendation](src/05-implicit_feedback_recommendation.ipynb)**: _Alternating Least Squares (ALS)_ dengan matriks _Preference_ ($P$) & _Confidence_ ($C$) menggunakan _Pure NumPy_.
 
 ---
 
