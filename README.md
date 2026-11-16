@@ -28,7 +28,7 @@ Repositori ini berisi kumpulan implementasi algoritma **Sistem Rekomendasi** yan
 2. **[Content-Based Filtering](src/02-content_based_filtering.ipynb)**: TF-IDF & _Cosine Similarity_.
 3. **[Collaborative Filtering](src/03-collaborative_filtering.ipynb)**: _User-Based CF_ dan _Weighted Average_.
 4. **[Matrix Factorization](src/04-matrix_factorization.ipynb)**: _Funk SVD_ (SGD) & _NMF_ menggunakan _Pure NumPy_.
-5. **[Implicit Feedback Recommendation](src/05-implicit_feedback_recommendation.ipynb)**: _Alternating Least Squares (ALS)_ dengan matriks _Preference_ ($P$) & _Confidence_ ($C$) menggunakan _Pure NumPy_.
+5. **[Implicit Feedback Recommendation](src/05-implicit_feedback_recommendation.ipynb)**: _Weighted Alternating Least Squares (ALS)_ & _Bayesian Personalized Ranking (BPR)_ menggunakan _Pure NumPy_.
 
 ---
 
