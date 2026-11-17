@@ -14,7 +14,8 @@ Repositori ini berisi kumpulan implementasi algoritma **Sistem Rekomendasi** yan
 │   ├── <a href="src/02-content_based_filtering.ipynb">02-content_based_filtering.ipynb</a>
 │   ├── <a href="src/03-collaborative_filtering.ipynb">03-collaborative_filtering.ipynb</a>
 │   ├── <a href="src/04-matrix_factorization.ipynb">04-matrix_factorization.ipynb</a>
-│   └── <a href="src/05-implicit_feedback_recommendation.ipynb">05-implicit_feedback_recommendation.ipynb</a>
+│   ├── <a href="src/05-implicit_feedback_recommendation.ipynb">05-implicit_feedback_recommendation.ipynb</a>
+│   └── <a href="src/06-advanced_factorization_models.ipynb">06-advanced_factorization_models.ipynb</a>
 ├── <a href=".gitignore">.gitignore</a>
 ├── <a href="r.txt">r.txt</a> # Daftar dependensi Python
 └── <a href="README.md">README.md</a>
@@ -29,6 +30,7 @@ Repositori ini berisi kumpulan implementasi algoritma **Sistem Rekomendasi** yan
 3. **[Collaborative Filtering](src/03-collaborative_filtering.ipynb)**: _User-Based CF_ dan _Weighted Average_.
 4. **[Matrix Factorization](src/04-matrix_factorization.ipynb)**: _Funk SVD_ (SGD) & _NMF_ menggunakan _Pure NumPy_.
 5. **[Implicit Feedback Recommendation](src/05-implicit_feedback_recommendation.ipynb)**: _Weighted Alternating Least Squares (ALS)_ & _Bayesian Personalized Ranking (BPR)_ menggunakan _Pure NumPy_.
+6. **[Advanced Factorization Models](src/06-advanced_factorization_models.ipynb)**: _Factorization Machines (FM)_ menggunakan _Pure NumPy_.
 
 ---
 
