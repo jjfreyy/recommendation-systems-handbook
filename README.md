@@ -32,7 +32,7 @@ Repositori ini berisi kumpulan implementasi algoritma **Sistem Rekomendasi** yan
 4. **[Matrix Factorization](src/04-matrix_factorization.ipynb)**: _Funk SVD_ (SGD) & _NMF_ menggunakan _Pure NumPy_.
 5. **[Implicit Feedback Recommendation](src/05-implicit_feedback_recommendation.ipynb)**: _Weighted Alternating Least Squares (ALS)_ & _Bayesian Personalized Ranking (BPR)_ menggunakan _Pure NumPy_.
 6. **[Advanced Factorization Models](src/06-advanced_factorization_models.ipynb)**: _Factorization Machines (FM)_ & _Field-aware Factorization Machines (FFM)_ menggunakan _Pure NumPy_.
-7. **[Deep Learning-Based Recommendation](src/07-deep_learning_based_recommendation.ipynb)**: _Neural Collaborative Filtering (NCF)_ dengan arsitektur _Neural Matrix Factorization (NeuMF)_ menggunakan PyTorch.
+7. **[Deep Learning-Based Recommendation](src/07-deep_learning_based_recommendation.ipynb)**: _Neural Collaborative Filtering (NCF)_ dengan arsitektur _Neural Matrix Factorization (NeuMF)_ & _Deep Factorization Machine (DeepFM)_.
 
 ---
 
