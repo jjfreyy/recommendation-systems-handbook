@@ -16,7 +16,8 @@ Repositori ini berisi kumpulan implementasi algoritma **Sistem Rekomendasi** yan
 │   ├── <a href="src/04-matrix_factorization.ipynb">04-matrix_factorization.ipynb</a>
 │   ├── <a href="src/05-implicit_feedback_recommendation.ipynb">05-implicit_feedback_recommendation.ipynb</a>
 │   ├── <a href="src/06-advanced_factorization_models.ipynb">06-advanced_factorization_models.ipynb</a>
-│   └── <a href="src/07-deep_learning_based_recommendation.ipynb">07-deep_learning_based_recommendation.ipynb</a>
+│   ├── <a href="src/07-deep_learning_based_recommendation.ipynb">07-deep_learning_based_recommendation.ipynb</a>
+│   └── <a href="src/08-sequential_based_recommendation.ipynb">08-sequential_based_recommendation.ipynb</a>
 ├── <a href=".gitignore">.gitignore</a>
 ├── <a href="r.txt">r.txt</a> # Daftar dependensi Python
 └── <a href="README.md">README.md</a>
@@ -33,6 +34,7 @@ Repositori ini berisi kumpulan implementasi algoritma **Sistem Rekomendasi** yan
 5. **[Implicit Feedback Recommendation](src/05-implicit_feedback_recommendation.ipynb)**: _Weighted Alternating Least Squares (ALS)_ & _Bayesian Personalized Ranking (BPR)_ menggunakan _Pure NumPy_.
 6. **[Advanced Factorization Models](src/06-advanced_factorization_models.ipynb)**: _Factorization Machines (FM)_ & _Field-aware Factorization Machines (FFM)_ menggunakan _Pure NumPy_.
 7. **[Deep Learning-Based Recommendation](src/07-deep_learning_based_recommendation.ipynb)**: _Neural Collaborative Filtering (NCF)_ dengan arsitektur _Neural Matrix Factorization (NeuMF)_ & _Deep Factorization Machine (DeepFM)_.
+8. **[Sequential-Based Recommendation](src/08-sequential_based_recommendation.ipynb)**: _Self-Attentive Sequential Recommendation (SASRec)_ dengan mekanisme _Causal Self-Attention_ untuk memprediksi item berikutnya berdasarkan urutan interaksi pengguna.
 
 ---
 
